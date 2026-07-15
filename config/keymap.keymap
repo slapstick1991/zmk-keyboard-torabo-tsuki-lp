@@ -6,17 +6,17 @@
     combos {
         compatible = "zmk,combos";
 
-        LCLK {
+        combo_lclk {
             bindings = <&mkp LCLK>;
             key-positions = <33 34>;
         };
 
-        RCLK {
+        combo_rclk {
             bindings = <&mkp RCLK>;
             key-positions = <34 35>;
         };
 
-        SCROLL {
+        combo_scroll {
             bindings = <&mo 1>;
             key-positions = <33 34 35>;
         };
