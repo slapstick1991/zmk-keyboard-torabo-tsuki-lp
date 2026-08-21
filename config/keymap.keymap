@@ -22,7 +22,6 @@ combos {
             bindings = <&mo 1>;
             key-positions = <33 34 35>;
             slow-release;
-            prioritize-press-over-combo;
         };
     };
 
