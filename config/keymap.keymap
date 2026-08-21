@@ -27,11 +27,11 @@
 
         layer_0 {
             bindings = <
-&kp ESC        &kp N1        &kp N2  &kp N3        &kp N4     &kp N5                                  &kp N6     &kp N7  &kp N8     &kp N9     &kp N0                &kp MINUS
-&kp LC(SPACE)  &kp Q         &kp W   &kp E         &kp R      &kp T                                   &kp Y      &kp U   &kp I      &kp O      &kp P                 &kp EQUAL
-&kp TAB        &kp A         &kp S   &kp D         &kp F      &kp G   &kp GRAVE        &mkp RCLK      &kp H      &kp J   &kp K      &kp L      &kp SEMI              &kp TAB
-&kp LSHFT      &kp Z         &kp X   &kp C         &kp V      &kp B   &kp NON_US_HASH  &kp RET        &kp N      &kp M   &kp COMMA  &kp DOT    &mt RIGHT_SHIFT FSLH  &kp RSHFT
-&kp LCTRL      &kp LEFT_ALT  &mo 3   &kp LEFT_GUI  &kp SPACE  &mo 2   &mo 3            &kp BACKSPACE  &kp ENTER  &none   &none      &mkp LCLK  &mkp RCLK             &kp RCTRL
+&kp ESC        &kp N1        &kp N2  &kp N3        &kp N4     &kp N5                                      &kp N6     &kp N7  &kp N8     &kp N9   &kp N0                &kp MINUS
+&kp LC(SPACE)  &kp Q         &kp W   &kp E         &kp R      &kp T                                       &kp Y      &kp U   &kp I      &kp O    &kp P                 &kp EQUAL
+&kp TAB        &kp A         &kp S   &kp D         &kp F      &kp G   &kp GRAVE        &kp LEFT_BRACKET   &kp H      &kp J   &kp K      &kp L    &kp SEMI              &kp TAB
+&kp LSHFT      &kp Z         &kp X   &kp C         &kp V      &kp B   &kp NON_US_HASH  &kp RIGHT_BRACKET  &kp N      &kp M   &kp COMMA  &kp DOT  &mt RIGHT_SHIFT FSLH  &kp RSHFT
+&kp LCTRL      &kp LEFT_ALT  &mo 3   &kp LEFT_GUI  &kp SPACE  &mo 2   &mo 3            &kp BACKSPACE      &kp ENTER  &none   &none      &mo 2    &kp RIGHT_ALT         &kp RCTRL
             >;
         };
 
