@@ -3,7 +3,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
-combos {
+    combos {
         compatible = "zmk,combos";
 
         combo_lclk {
@@ -20,8 +20,7 @@ combos {
 
         combo_scroll {
             bindings = <&mo 1>;
-            key-positions = <33 34 35>;
-            slow-release;
+            key-positions = <47 48>;
         };
     };
 
