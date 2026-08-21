@@ -3,22 +3,26 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
-    combos {
+combos {
         compatible = "zmk,combos";
 
         combo_lclk {
             bindings = <&mkp LCLK>;
             key-positions = <33 34>;
+            layers = <0>;
         };
 
         combo_rclk {
             bindings = <&mkp RCLK>;
             key-positions = <34 35>;
+            layers = <0>;
         };
 
         combo_scroll {
             bindings = <&mo 1>;
             key-positions = <33 34 35>;
+            slow-release;
+            prioritize-press-over-combo;
         };
     };
 
