@@ -27,11 +27,11 @@
 
         layer_0 {
             bindings = <
-&kp ESC        &kp N1        &kp N2  &kp N3        &kp N4        &kp N5                                                  &kp N6        &kp N7  &kp N8     &kp N9     &kp N0                 &kp MINUS
-&kp LC(SPACE)  &kp Q         &kp W   &kp E         &kp R         &kp T                                                   &kp Y         &kp U   &kp I      &kp O      &kp P                  &kp EQUAL
-&kp TAB        &kp A         &kp S   &kp D         &kp F         &kp G   &kp GRAVE        &mkp RCLK                      &kp H         &kp J   &kp K      &kp L      &kp SEMI               &kp TAB
-&kp LSHFT      &kp Z         &kp X   &kp C         &kp V         &kp B   &kp NON_US_HASH  &kp RET                        &kp N         &kp M   &kp COMMA  &kp DOT    &mt RIGHT_SHIFT FSLH   &kp RSHFT
-&kp LCTRL      &kp LEFT_ALT  &to 3   &kp LEFT_GUI  &kp SPACE     &to 2   &to 3            &kp BACKSPACE  &kp ENTER       &none         &none   &mkp LCLK  &mkp RCLK                         &kp RCTRL
+&kp ESC        &kp N1        &kp N2  &kp N3        &kp N4     &kp N5                                  &kp N6     &kp N7  &kp N8     &kp N9     &kp N0                &kp MINUS
+&kp LC(SPACE)  &kp Q         &kp W   &kp E         &kp R      &kp T                                   &kp Y      &kp U   &kp I      &kp O      &kp P                 &kp EQUAL
+&kp TAB        &kp A         &kp S   &kp D         &kp F      &kp G   &kp GRAVE        &mkp RCLK      &kp H      &kp J   &kp K      &kp L      &kp SEMI              &kp TAB
+&kp LSHFT      &kp Z         &kp X   &kp C         &kp V      &kp B   &kp NON_US_HASH  &kp RET        &kp N      &kp M   &kp COMMA  &kp DOT    &mt RIGHT_SHIFT FSLH  &kp RSHFT
+&kp LCTRL      &kp LEFT_ALT  &mo 3   &kp LEFT_GUI  &kp SPACE  &mo 2   &mo 3            &kp BACKSPACE  &kp ENTER  &none   &none      &mkp LCLK  &mkp RCLK             &kp RCTRL
             >;
         };
 
@@ -47,11 +47,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans          &trans          &trans           &trans                  &trans  &trans  &kp KP_PLUS       &kp KP_MINUS      &kp KP_MULTIPLY  &kp KP_DIVIDE
-&trans  &trans  &trans          &kp UP_ARROW    &trans           &trans                  &trans  &trans  &kp LC(BACKSPACE) &kp KP_N7         &kp KP_N8        &kp KP_N9
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans  &trans  &trans  &kp SPACE         &kp KP_N4         &kp KP_N5        &kp KP_N6
-&trans  &trans  &trans          &trans          &trans           &trans  &trans  &trans  &trans  &trans  &kp SEMICOLON     &kp KP_N1         &kp KP_N2        &kp KP_N3
-&trans  &trans  &trans          &trans          &trans           &trans  &trans  &trans  &trans  &trans  &trans            &kp KP_N0         &kp KP_DOT       &kp KP_ENTER
+&trans  &trans  &trans          &trans          &trans           &trans                  &trans  &trans  &kp KP_PLUS        &kp KP_MINUS  &kp KP_MULTIPLY  &kp KP_DIVIDE
+&trans  &trans  &trans          &kp UP_ARROW    &trans           &trans                  &trans  &trans  &kp LC(BACKSPACE)  &kp KP_N7     &kp KP_N8        &kp KP_N9
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans  &trans  &trans  &kp SPACE          &kp KP_N4     &kp KP_N5        &kp KP_N6
+&trans  &trans  &trans          &trans          &trans           &trans  &trans  &trans  &trans  &trans  &kp SEMICOLON      &kp KP_N1     &kp KP_N2        &kp KP_N3
+&trans  &trans  &trans          &trans          &trans           &trans  &trans  &trans  &trans  &trans  &trans             &kp KP_N0     &kp KP_DOT       &kp KP_ENTER
             >;
         };
 
